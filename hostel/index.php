@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html>
+<?php
 
-<head>
-    <title>Hostel</title>
-    <meta charset="utf-8" />
+/**
+ * 
+ * MVC - Model, View, Controller
+ * 
+ * 
+ * I.   + Продумати сховище для даних (структури даних) Побудова карти кімнат
+ * II.  + Виведення карти кімнат
+ * III. Бронювання номеру 
+ * IV.  Стаститика замовлень (json-файл)
+ */
 
-</head>
-
-
-<body>
-    <?php
-    echo "Hostel";
-    ?>
-</body>
-
-</html>
+require_once __DIR__.'/bootstrap.php';
+require_once __DIR__.'/routing.php';
+require_once __DIR__.'/views/main.php';
